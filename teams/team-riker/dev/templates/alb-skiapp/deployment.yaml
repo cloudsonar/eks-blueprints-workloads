@@ -5,7 +5,7 @@ metadata:
   name: skiapp-deployment
   namespace: team-riker
 spec: 
-  replicas: 4
+  replicas: 3
   selector: 
     matchLabels: 
       app: skiapp
